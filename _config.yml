@@ -1,0 +1,37 @@
+url: http://radihilaneh.com
+baseurl:
+
+# Site settings
+title: Radi Hilaneh's Portfolio
+email: radihilaneh@gmail.com
+description: "Portfolio of Radi Hilaneh. Creative Coder. Digital Media & Computational Arts Developer."
+
+# Team names, titles and social links
+people:
+- name: Radi Hilaneh
+  pic: 1
+  position: Creative Coder. Digital Media & Computational Arts Developer.
+  social:
+    #- title: twitter
+    #  url:  http://twitter.com/
+    - title: github
+      url: http://github.com/JessieSpike
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  #- title: twitter
+  #  url: http://twitter.com/
+  - title: github
+    url: http://github.com/JessieSpike
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Toronto,ON,
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Portfolio items belong to the /projects collection
+collections:
+  projects:
