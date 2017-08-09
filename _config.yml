@@ -1,28 +1,28 @@
-url: http://lalaineulitdestajo.com
+url: http://www.radihilaneh.com
 baseurl:
 
 # Site settings
-title: Lalaine Ulit-Destajo Portfolio
+title: Radi Hilaneh
 email: lulitdestajo@gmail.com
-description: "Portfolio of Lalaine Ulit-Destajo. Creative Coder.Multimedia and interaction Designer."
+description: "Portfolio of Radi Hilaneh. Creative Coder.Multimedia and interaction Designer."
 
 # Team names, titles and social links
 people:
-- name: Lalaine Ulit-Destajo
+- name: Radi Hilaneh
   pic: 1
   position: Creative Coder. Multimedia and interaction Designer.
   social:
-    - title: twitter
-      url:  http://twitter.com/ludestajo
+    #- title: twitter
+    #  url:  http://twitter.com/ludestajo
     - title: github
       url: http://github.com/lulitd
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/ludestajo
+  #- title: twitter
+  #  url: http://twitter.com/ludestajo
   - title: github
-    url: http://github.com/lulitd
+    url: http://github.com/JessieSpike
 
 # Postal address (add as many lines as necessary)
 address:
