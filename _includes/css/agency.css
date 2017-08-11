@@ -255,7 +255,11 @@ navbar-custom .navbar-left>img {
   }
 }
 header {
-  background-image: url('JessieSpike/myportsite.github.io/img/header_BG.jpg');
+  background-color: #222222;
+  background-image: url('../img/header_BG.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+/*  background-image: url('../img/header_BG.jpg');
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-position: center center;
@@ -264,7 +268,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  /*color: white;*/
+  color: white;*/
 }
 header .intro-text {
   padding-top: 100px;
