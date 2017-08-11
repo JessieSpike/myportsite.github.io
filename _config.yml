@@ -3,7 +3,7 @@ baseurl:
 
 # Site settings
 title: Radi Hilaneh
-email: lulitdestajo@gmail.com
+email: radihilaneh@gmail.com
 description: "Portfolio of Radi Hilaneh. Creative Coder.Multimedia and interaction Designer."
 
 # Team names, titles and social links
@@ -12,15 +12,15 @@ people:
   pic: 1
   position: Creative Coder. Multimedia and interaction Designer.
   social:
-    #- title: twitter
-    #  url:  http://twitter.com/ludestajo
+  #  - title: twitter
+  #    url:  http://twitter.com/ludestajo
     - title: github
       url: http://github.com/JessieSpike
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  #- title: twitter
-  #  url: http://twitter.com/ludestajo
+#  - title: twitter
+#    url: http://twitter.com/ludestajo
   - title: github
     url: http://github.com/JessieSpike
 
