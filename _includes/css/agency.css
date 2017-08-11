@@ -11,14 +11,14 @@ body {
   color: #777777;
 }
 .text-primary {
-  color: #fece1a;
-}
-p {
-  font-size: 14px;
-  line-height: 1.75;
+  color: #white;
 }
 p.large {
   font-size: 16px;
+  line-height: 1.75;
+}
+p. {
+  font-size: 14px;
 }
 a,
 a:hover,
