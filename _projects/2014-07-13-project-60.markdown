@@ -1,0 +1,37 @@
+---
+title: Lazurus and His Beloved
+subtitle: Interactive Theatre Production
+quick-summary: Interactive Theatre Production
+collaborators:
+  - name: Invisible Light Production
+    url:
+  - name: Broken Hill Theatre
+    url:
+layout: default
+modal-id: 1
+date: 2014-07-15
+img: lazurus1.jpg
+thumbnail: lazurus1.jpg
+alt: image-alt
+project-date: April 2013
+client: Start Bootstrap
+category:
+  - Interaction Design
+  - Creative Coding
+  - Interactive Performance
+description:
+  - Outdoor theatrical production of Lazarus and His Beloved by Kahlil Gibran, in collaboration with Broken Hill Theatre. In this production, we created an interactive projection mapping system which was use to project visuals onto the set. Using the Kinect we tracked the actors and positioned "halos" around the actor's heads, acting as a follow spotlight.
+  - My primary contribution to the production was developing the software which mapped Actor's position data gather from the Kinect unto the custom geometry projection surface.
+
+software:
+  - Max MSP
+  - Processing
+
+hardware:
+  - Microsoft Kinect
+  - Stage lights
+  - Projector
+
+exhibitions:
+  - "Lazurus and His Beloved (Summer 2015)"
+---
