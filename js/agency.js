@@ -35,3 +35,23 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+$('div.modal').on('hidden.bs.modal', function (e) {
+  var modal = this;
+	var hash = modal.id;
+
+var  videoIframe = $(".vidHolder.youtubeVideo iframe",modal).attr('src');
+
+  if (typeof videoIframe != "undefined") {
+    $(".vidHolder.youtubeVideo iframe",modal).attr('src','');
+    $(".vidHolder.youtubeVideo iframe",modal).attr('src',videoIframe);
+  } else {
+        var vimeoDiv = modal.getElementsByClassName("vimeoVideo")[0];
+      if (typeof vimeoDiv != "undefined") {
+        var iFrame = vimeoDiv.getElementsByTagName("iFrame")[0];
+        var player = new Vimeo.Player(iFrame);
+        player.pause();
+      }
+}
+
+});
