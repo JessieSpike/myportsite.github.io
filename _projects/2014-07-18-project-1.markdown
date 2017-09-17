@@ -1,0 +1,44 @@
+---
+title: Encounter
+date: '2016-01-01 00:00:00'
+subtitle: Interactive Art Installation
+quick-summary: Interactive Artificial Ecosystem
+collaborators:
+  - name: Youhan Guan
+    url: "http://youhanguan.com/"
+  - name: Rose Mengmei Zhou
+    url:
+layout: default
+modal-id: 7
+img: ~
+thumbnail: encounter.jpg
+alt: encounter
+project-date: 2016
+software:
+  - Unity3D (c#)
+  - Cinema4D
+
+hardware:
+  - Microsoft Kinect for Windows
+  - Android/iOS Smartphone and tablets
+
+exhibitions:
+  - York University Undergraduate Research Fair (February 2016)
+  - Digital Media Showcase (April 2016)
+  - Computational Beauty exhibition(April 2016)
+  - Digifest Festival (April 2016)
+
+category:
+  - Interaction Design
+  - Creative Coding
+
+youtube_url: "https://www.youtube.com/embed/zEDyT4MUois"
+vimeo_url: ~
+
+description:
+  - Encounter is an installation where participants can interact with artificial creatures and environments using mixed reality modes of interaction. Participants act as city planners by physical objects on the map to shape the virtual world.
+  - Using a smartphone/tablet device and a custom app participants can find out more information about the environment using augmented reality. The app recognizes various objects and images and communicates any changes the 'city planners' make.
+  - In the projection zone, participants control their digital avatars using their body movements.  The environment and creatures of this ecosystem respond to their gestures. Any changes made by the city planners are reflected in the projected view in real time.
+  - For this Project, my primary focus were the participant's interactions in the projection space, projection design and world modelling.
+
+---
