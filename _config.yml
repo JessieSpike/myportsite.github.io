@@ -1,37 +1,38 @@
-url: http://www.radihilaneh.com
-baseurl:
-
 # Site settings
 title: Radi Hilaneh
 email: radihilaneh@gmail.com
-description: "Portfolio of Radi Hilaneh. Creative Coder."
+description: "Portfolio of Radi Hilaneh. Creative Coder.Multimedia and interaction Designer."
 
-# Team names, titles and social links
-people:
-- name: Radi Hilaneh
-  pic: 1
-  position: Digital Media & Computational Arts Developer.
-  social:
-  #  - title: twitter
-  #    url:  http://twitter.com/ludestajo
-    - title: github
-      url: http://github.com/JessieSpike
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-#  - title: twitter
-#    url: http://twitter.com/ludestajo
-  - title: github
-    url: http://github.com/JessieSpike
+  twitter: "http://twitter.com/ludestajo"
+  linkedin: "https://www.linkedin.com/in/lulitdestajo/"
+  instagram: "https://www.instagram.com/lulitd/"
+  github: "https://github.com/lulitd"
+  500px: "https://500px.com/lulitdestajo"
+baseurl:  # the subpath of your site, e.g. /blog
+url: http://radihilaneh.com # the base hostname & protocol for your site
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: Toronto,ON,
-
+# collections:
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:title/index.html
+  categories:
+    output: true
+#default
+defaults:
+  -
+    scope:
+      path: ""
+      type: categories
+    values:
+      layout: "category"
 # Build settings
 markdown: kramdown
-permalink: pretty
 
-# Portfolio items belong to the /projects collection
-collections:
-  projects:
+plugins:
+  - jekyll-paginate
+  - jekyll-compose
+
+paginate: 6
+paginate_path: "blog/page:num"
